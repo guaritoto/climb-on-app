@@ -1,0 +1,290 @@
+
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Barlow", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 0px 0 40px;
+}
+h2::after {
+	content: "";
+	width: 210px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #FD9644;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 340px;
+}
+.carousel .item a {
+	color: #eb7245;
+}
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #F0F0F0;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;
+	padding-bottom: 5px;
+}
+.carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+.carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+    background: #999;
+    text-shadow: none;
+	top: 4px;
+}
+.carousel-control i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+.carousel-control.right i {
+	margin-right: -2px;
+}
+.carousel .carousel-indicators {
+	bottom: 100px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {
+	background: #e2e2e2;
+	border-color: transparent;
+}
+.carousel-indicators li.active {
+	border: none;
+	background: #888;
+
+  }
+  .overview {
+    margin-top: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Economica', sans-serif;
+  color: #F0F0F0;
+  letter-spacing: 1px;
+
+}
+
+h2 {
+  padding-top: 50px;
+}
+
+h3 {
+  padding-top: 20px;
+
+}
+
+body{
+  font-family: 'Barlow', sans-serif;
+  color: #F0F0F0;
+  font-size: 1.5em;
+}
+.text1 {
+  align-items: center;
+}
+.start{
+  padding-top: 5px;
+}
+
+btn btn-primary btn-lg
+.display-4 {
+    font-weight: 700;
+
+}
+
+.logo {
+  align-items: center;
+
+}
+
+.margins {
+  background-image: linear-gradient(#081B28, #1F3B47);
+  background-image: url(../img/Review-bg-3.png);
+}
+
+.col-sm-12 {
+  hyphens: 500px;
+  background-image: url(../img/Review-bg-3.png);
+  background-position: center center;
+}
+
+.bd-example {
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+.btn {
+  color: black;
+  font-weight: 900;
+}
+
+.row {
+  justify-content: center;
+}
+
+.lead {
+  align-items:
+  color:black;
+}
+
+.jumbotron {
+  height: 600px;
+  background-color: #1E3843!important;
+  background-image: url(../img/hero-image.png);
+  background-position: center center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px,
+ }
+
+.display-4   {
+  padding-top: 100px;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-text{
+  color: #B8B8B8;
+}
+
+
+.benefits {
+  background-image: linear-gradient(#081B28, #1F3B47, #081B28);
+  height: 800px;
+}
+
+.climb-on {
+  background-color: #081B28;
+  height: 100px;
+}
+
+.logo {
+  width: 100px;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.testimonial {
+  padding: 0px;
+  text-align: left;
+  margin: 0px;
+  height: 5px;
+  color: #B8B8B8;
+}
+
+
+.carousel-item {
+  margin: 0px;
+  padding-bottom: 100px;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.get-updates {
+  background-color: #FD9644;
+  border-color: #FD9644;
+  text-decoration-color: black;
+  margin-top: 0px;
+}
+
+.newsletter {
+    background-image: url(../img/Review-bg-4.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 0px;
+    height: 400px;
+}
+
+.btn-primary {
+  background-color: #FD9644;
+  border-color: #FD9644;
+  width: 190px;
+}
+
+.cta-txt {
+  padding-bottom: 0px;
+  margin: 20px;
+  color: #B8B8B8;
+  font-size: 1.25em;
+}
+
+.margin-h3 {
+padding-top: 50PX;
+}
+
+.footer {
+  height: 75px;
+  background-color: #081B28;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.get-info {
+  padding-top: 0PX;
+}
+
+.logo-end {
+  height: 60px;
+}
